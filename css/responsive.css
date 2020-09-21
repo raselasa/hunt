@@ -1,0 +1,326 @@
+/*=================={{ [[ Extra small device less than 576px ]] }==============*/
+@media (max-width: 575.98px){
+    /* ======= MEMU SECTION */
+    #menu {
+        padding: 40px 0;
+        background: rgb(20, 19, 19);
+    }
+    #menu .navbar ul li {
+        width: 100%;
+    }
+    #menu .navbar ul li a{
+        text-align: center;
+        padding: 10px 0;
+    }
+    #menu .navbar ul li a::after {
+        width: 50px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #menu .navbar ul li a:hover::after {
+        width: 100px;
+    }
+    /* Banner section */
+    #banner p {
+        font-size: 14px;
+        color: #f1f1f1;
+        width: auto;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .title p {
+        width: 300px;
+        margin: 0 auto;
+    }
+    /* About Section  */
+    #about .about-curcle {
+        width: 250px;
+        height: 250px;
+        margin-top: 40px;
+        margin-bottom: 800px;
+    }
+    #about .about-curcle img {
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+    }
+    #about .about-curcle .overlay {
+        width: 220px;
+        height: 220px;
+    }
+    #about .about-curcle .about-items {
+        width: 250px;
+        padding: 10px;
+        border-radius: 0;
+    }
+    #about .about-curcle .item1 {
+        top: 275px;
+        
+    }
+    #about .about-curcle .item2 {
+        bottom: -390px;
+    }
+    #about .about-curcle .item3 {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 532px;
+        text-align: center;
+    }
+    #about .about-curcle .item4 {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 722px;
+        text-align: center;
+    }
+    #about .about-curcle .item1::after {
+        display: none;
+    }
+    #about .about-curcle .item2::after {
+        display: none;
+    }
+    #about .about-curcle .item3::after {
+        display: none;
+    }
+    #about .about-curcle .item4::after {
+        display: none;
+    }
+    #about .about-curcle .item1::before {
+        display: none;
+    }
+    #about .about-curcle .item2::before {
+        display: none;
+    }
+    #about .about-curcle .item3::before {
+        display: none;
+    }
+    #about .about-curcle .item4::before {
+        display: none;
+    }
+    /* OUR PORTFOIIO SECTION */
+    #portfolio .color1 {
+        height: 400px;
+    }
+
+}
+/*=================={{ [[ Small device 576px and up ]] }================= */
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* ======= MEMU SECTION */
+    #menu {
+        padding: 40px 0;
+        background: rgb(20, 19, 19);
+    }
+    #menu .navbar ul li {
+        width: 100%;
+    }
+    #menu .navbar ul li a{
+        text-align: center;
+        padding: 10px 0;
+    }
+    #menu .navbar ul li a::after {
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Banner Setion */
+
+    .title p {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    /* About Section  */
+    #about .about-curcle {
+        width: 250px;
+        height: 250px;
+        margin-top: 40px;
+        margin-bottom: 800px;
+    }
+    #about .about-curcle img {
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+    }
+    #about .about-curcle .overlay {
+        width: 220px;
+        height: 220px;
+    }
+    #about .about-curcle .about-items {
+        width: 250px;
+        padding: 10px;
+        border-radius: 0;
+    }
+    #about .about-curcle .item1 {
+        top: 275px;
+        
+    }
+    #about .about-curcle .item2 {
+        bottom: -390px;
+    }
+    #about .about-curcle .item3 {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 532px;
+        text-align: center;
+    }
+    #about .about-curcle .item4 {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 722px;
+        text-align: center;
+    }
+    #about .about-curcle .item1::after {
+        display: none;
+    }
+    #about .about-curcle .item2::after {
+        display: none;
+    }
+    #about .about-curcle .item3::after {
+        display: none;
+    }
+    #about .about-curcle .item4::after {
+        display: none;
+    }
+    #about .about-curcle .item1::before {
+        display: none;
+    }
+    #about .about-curcle .item2::before {
+        display: none;
+    }
+    #about .about-curcle .item3::before {
+        display: none;
+    }
+    #about .about-curcle .item4::before {
+        display: none;
+    }
+
+    /* OUR PORTFOIIO SECTION */
+    #portfolio .color1 {
+        height: 400px;
+    }
+
+}
+/*=================={{ [[ Medium device 768px and up ]] }================ */
+@media (min-width: 768px) and (max-width: 991.98px){
+    /* ======= MEMU SECTION */
+    #menu {
+        padding: 40px 0;
+        background: rgb(20, 19, 19);
+    }
+    #menu .navbar ul li {
+        width: 100%;
+    }
+    #menu .navbar ul li a{
+        text-align: center;
+        padding: 10px 0;
+    }
+    #menu .navbar ul li a::after {
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* About Section  */
+    #about .about-curcle {
+        width: 150px;
+        height: 150px;
+    }
+    #about .about-curcle img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+    }
+    #about .about-curcle .overlay {
+        width: 130px;
+        height: 130px;
+    }
+    #about .about-curcle .about-items {
+        width: 250px;
+        padding: 10px;
+        border-radius: 0;
+    }
+    #about .about-curcle .item1 {
+        top: -213px;
+    }
+    #about .about-curcle .item2 {
+        bottom: -215px;
+    }
+    #about .about-curcle .item3 {
+        left: -288px;
+    }
+    #about .about-curcle .item4 {
+        right: -288px;
+    }
+    #about .about-curcle .item1::before {
+        width: 10px;
+        height: 10px;
+        left: 51%;
+    }
+    #about .about-curcle .item2::before {
+        width: 10px;
+        height: 10px;
+        left: 51%;
+    }
+    #about .about-curcle .item3::before {
+        width: 10px;
+        height: 10px;
+        top: 48%;
+    }
+    #about .about-curcle .item4::before {
+        width: 10px;
+        height: 10px;
+        top: 48%;
+    }
+    /* OUR PORTFOIIO SECTION */
+    #portfolio .color1 {
+        height: 400px;
+    }
+}
+/*=================={{ [[ large device 992px and up ]] }================ */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /* About Section  */
+    #about .about-curcle {
+        width: 240px;
+        height: 240px;
+    }
+    #about .about-curcle img {
+        width: 215px;
+        height: 215px;
+        border-radius: 50%;
+    }
+    #about .about-curcle .overlay {
+        width: 215px;
+        height: 215px;
+    }
+    #about .about-curcle .about-items {
+        width: 300px;
+    }
+    #about .about-curcle .item1 {
+        top: -269px;
+    }
+    #about .about-curcle .item2 {
+        bottom: -270px;
+    }
+    #about .about-curcle .item3 {
+        left: -334px;
+    }
+    #about .about-curcle .item4 {
+        right: -334px;
+    }
+    /* MEET OUR TEAM */
+    #team .team-slider .slider-items .item .icon {
+        padding: 0 20px;
+    }
+    #team .team-slider .slider-items .item .icon a {
+        margin: 0 5px;
+    }
+    /* MEET OUR TEAM  */
+    #team .team-slider .slider-items .item .icon a {
+        margin: 0 2px;
+    }
+}
+/*=================={{ [[ Extra Large device 1200px and up ]] }================ */
+@media (min-width: 1200px) {
+}
